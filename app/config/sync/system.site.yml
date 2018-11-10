@@ -1,0 +1,14 @@
+uuid: 179dfc02-5d24-430e-a700-f754d6c18962
+name: drupal
+mail: madan_limbu@hotmail.co.uk
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

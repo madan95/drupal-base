@@ -5,6 +5,8 @@ services:
     environment:
       MYSQL_DATABASE: drupal
       MYSQL_ROOT_PASSWORD: drupal
+      MYSQL_USER: drupal
+      MYSQL_PASSWORD: drupal
     volumes:
     - db_data:/var/lib/mysql
     restart: always
