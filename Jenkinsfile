@@ -7,5 +7,10 @@ pipeline {
                 sh 'php --version'
             }
         }
+        post {
+            always {
+              echo 'This should run always'
+            }
+        }
     }
 }
